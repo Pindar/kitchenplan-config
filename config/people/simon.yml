@@ -1,13 +1,41 @@
 groups:
     - groupa
+    - bash
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
 attributes:
     osxdefaults:
-        computername: MyComputerName
+        computername: Simons-MBP
     homebrewalt:
         apps:
             - git-extras
         cask_apps:
-            - sourcetree
+            - google-drive
+            - dropbox
+            - evernote
+            - alfred
+            - 1password
+            - vlc
+            - hipchat
+            - adobe-photoshop-lightroom
+            - boot2docker
+            - flashlight
+            - couleurs
+            - vagrant-manager
+            - vagrant
+            - vmware-fusion
+            - virtualbox
+            - cyberduck
+            - android-file-transfer
+            - gimp
+            - growlnotify
+            - webstorm
+            - iterm2
+            - silverlight
+            - flash
+            - perian
+            - music-manager
+            - logitech-control-center
+            - textmate
+
