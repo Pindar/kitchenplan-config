@@ -1,0 +1,27 @@
+recipes:
+    global:
+        - dotfiles::gitconfig
+        - applications::ssh_config
+        - dotfiles::vim
+    mac_os_x:
+        - applications::sublime_text_3
+        - applications::gnu-tar
+        - osxdefaults::set_terminal_profile
+        - osxdefaults::add_a_context_menu_item_for_showing_the_web_inspector_in_web_views
+        - osxdefaults::finder_display_full_path
+        - osxdefaults::finder_use_column_view_in_all_finder_windows_by_default
+        - osxdefaults::finder_new_finder_windows_shows_homefolder
+        - osxdefaults::finder_search_the_current_folder_by_default
+        - osxdefaults::finder_unhide_home
+attributes:
+    homebrewalt:
+        apps:
+            - git
+            - git-extras
+            - wget
+            - rsync        
+    nodejs:
+        apps:
+            - bower
+            - grunt
+            - grunt-cli

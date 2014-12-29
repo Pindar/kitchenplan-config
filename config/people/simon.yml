@@ -1,6 +1,9 @@
 groups:
     - bash
+    - developer
 recipes:
+    global:
+        - dotfiles::sshconfig
     mac_os_x:
         - osxdefaults::set_computer_name
 attributes:
@@ -65,6 +68,8 @@ attributes:
         computername: Simons-MBP
     homebrewalt:
         apps:
+            - git
+            - rsync
             - git-extras
         cask_apps:
             - google-drive
@@ -92,3 +97,8 @@ attributes:
             - perian
             - music-manager
             - textmate
+    nodejs:
+        apps:
+            - bower
+            - grunt
+            - grunt-cli
